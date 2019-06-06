@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Salozo Business</string>
+    <string name="facebook_app_id">628685507607629</string>
+    <string name="fb_login_protocol_scheme">fb628685507607629</string>
+    <string name="gg_maps_api_key">AIzaSyD7SMX2hKb5RtB5AN3AfRBInVaFc1HzkQE</string>
+</resources>

@@ -1,0 +1,85 @@
+import {createAction} from 'redux-actions'
+
+export const CREATE_EMPLOYEE = 'CREATE_EMPLOYEE'
+const CREATE_EMPLOYEE_REQUEST = 'CREATE_EMPLOYEE_REQUEST'
+const CREATE_EMPLOYEE_SUCCESS = 'CREATE_EMPLOYEE_SUCCESS'
+const CREATE_EMPLOYEE_ERROR = 'CREATE_EMPLOYEE_ERROR'
+
+export const FETCH_EMPLOYEE = 'FETCH_EMPLOYEE'
+const FETCH_EMPLOYEE_REQUEST = 'FETCH_EMPLOYEE_REQUEST'
+const FETCH_EMPLOYEE_SUCCESS = 'FETCH_EMPLOYEE_SUCCESS'
+const FETCH_EMPLOYEE_ERROR = 'FETCH_EMPLOYEE_ERROR'
+
+export const FETCH_ALL_EMPLOYEE = 'FETCH_ALL_EMPLOYEE'
+const FETCH_ALL_EMPLOYEE_REQUEST = 'FETCH_ALL_EMPLOYEE_REQUEST'
+const FETCH_ALL_EMPLOYEE_SUCCESS = 'FETCH_ALL_EMPLOYEE_SUCCESS'
+const FETCH_ALL_EMPLOYEE_ERROR = 'FETCH_ALL_EMPLOYEE_ERROR'
+
+export const FETCH_ALL_EMPLOYEE_BY_MANAGER = 'FETCH_ALL_EMPLOYEE_BY_MANAGER'
+const FETCH_ALL_EMPLOYEE_BY_MANAGER_REQUEST = 'FETCH_ALL_EMPLOYEE_BY_MANAGER_REQUEST'
+const FETCH_ALL_EMPLOYEE_BY_MANAGER_SUCCESS = 'FETCH_ALL_EMPLOYEE_BY_MANAGER_SUCCESS'
+const FETCH_ALL_EMPLOYEE_BY_MANAGER_ERROR = 'FETCH_ALL_EMPLOYEE_BY_MANAGER_ERROR'
+
+export const UPDATE_EMPLOYEE = 'UPDATE_EMPLOYEE'
+const UPDATE_EMPLOYEE_REQUEST = 'UPDATE_EMPLOYEE_REQUEST'
+const UPDATE_EMPLOYEE_SUCCESS = 'UPDATE_EMPLOYEE_SUCCESS'
+const UPDATE_EMPLOYEE_ERROR = 'UPDATE_EMPLOYEE_ERROR'
+
+export const UPDATE_EMPLOYEE_PASSWORD = 'UPDATE_EMPLOYEE_PASSWORD'
+const UPDATE_EMPLOYEE_PASSWORD_REQUEST = 'UPDATE_EMPLOYEE_PASSWORD_REQUEST'
+const UPDATE_EMPLOYEE_PASSWORD_SUCCESS = 'UPDATE_EMPLOYEE_PASSWORD_SUCCESS'
+const UPDATE_EMPLOYEE_PASSWORD_ERROR = 'UPDATE_EMPLOYEE_PASSWORD_ERROR'
+
+export const DELETE_EMPLOYEE = 'DELETE_EMPLOYEE'
+const DELETE_EMPLOYEE_REQUEST = 'DELETE_EMPLOYEE_REQUEST'
+const DELETE_EMPLOYEE_SUCCESS = 'DELETE_EMPLOYEE_SUCCESS'
+const DELETE_EMPLOYEE_ERROR = 'DELETE_EMPLOYEE_ERROR'
+
+export const ADD_EMPLOYEE_ROLE = 'ADD_EMPLOYEE_ROLE'
+const ADD_EMPLOYEE_ROLE_REQUEST = 'ADD_EMPLOYEE_ROLE_REQUEST'
+const ADD_EMPLOYEE_ROLE_SUCCESS = 'ADD_EMPLOYEE_ROLE_SUCCESS'
+const ADD_EMPLOYEE_ROLE_ERROR = 'ADD_EMPLOYEE_ROLE_ERROR'
+
+export const FETCH_EMPLOYEE_ROLE = 'FETCH_EMPLOYEE_ROLE'
+const FETCH_EMPLOYEE_ROLE_REQUEST = 'FETCH_EMPLOYEE_ROLE_REQUEST'
+const FETCH_EMPLOYEE_ROLE_SUCCESS = 'FETCH_EMPLOYEE_ROLE_SUCCESS'
+const FETCH_EMPLOYEE_ROLE_ERROR = 'FETCH_EMPLOYEE_ROLE_ERROR'
+
+export const createEmployeeRequest = createAction(CREATE_EMPLOYEE_REQUEST)
+export const createEmployeeSuccess = createAction(CREATE_EMPLOYEE_SUCCESS)
+export const createEmployeeError = createAction(CREATE_EMPLOYEE_ERROR)
+
+export const fetchEmployeeRequest = createAction(FETCH_EMPLOYEE_REQUEST)
+export const fetchEmployeeSuccess = createAction(FETCH_EMPLOYEE_SUCCESS)
+export const fetchEmployeeError = createAction(FETCH_EMPLOYEE_ERROR)
+
+export const fetchAllEmployeeRequest = createAction(FETCH_ALL_EMPLOYEE_REQUEST)
+export const fetchAllEmployeeSuccess = createAction(FETCH_ALL_EMPLOYEE_SUCCESS)
+export const fetchAllEmployeeError = createAction(FETCH_ALL_EMPLOYEE_ERROR)
+
+export const fetchAllEmployeeByManagerRequest = createAction(FETCH_ALL_EMPLOYEE_BY_MANAGER_REQUEST)
+export const fetchAllEmployeeByManagerSuccess = createAction(FETCH_ALL_EMPLOYEE_BY_MANAGER_SUCCESS)
+export const fetchAllEmployeeByManagerError = createAction(FETCH_ALL_EMPLOYEE_BY_MANAGER_ERROR)
+
+export const updateEmployeeRequest = createAction(UPDATE_EMPLOYEE_REQUEST)
+export const updateEmployeeSuccess = createAction(UPDATE_EMPLOYEE_SUCCESS)
+export const updateEmployeeError = createAction(UPDATE_EMPLOYEE_ERROR)
+
+export const updateEmployeePasswordRequest = createAction(UPDATE_EMPLOYEE_PASSWORD_REQUEST)
+export const updateEmployeePasswordSuccess = createAction(UPDATE_EMPLOYEE_PASSWORD_SUCCESS)
+export const updateEmployeePasswordError = createAction(UPDATE_EMPLOYEE_PASSWORD_ERROR)
+
+export const deleteEmployeeRequest = createAction(DELETE_EMPLOYEE_REQUEST)
+export const deleteEmployeeSuccess = createAction(DELETE_EMPLOYEE_SUCCESS)
+export const deleteEmployeeError = createAction(DELETE_EMPLOYEE_ERROR)
+
+export const CLEAR_EMPLOYEE = 'CLEAR_EMPLOYEE'
+export const clearEmployee = createAction(CLEAR_EMPLOYEE)
+
+export const addEmployeeRoleRequest = createAction(ADD_EMPLOYEE_ROLE_REQUEST)
+export const addEmployeeRoleSuccess = createAction(ADD_EMPLOYEE_ROLE_SUCCESS)
+export const addEmployeeRoleError = createAction(ADD_EMPLOYEE_ROLE_ERROR)
+
+export const fetchEmployeeRoleRequest = createAction(FETCH_EMPLOYEE_ROLE_REQUEST)
+export const fetchEmployeeRoleSuccess = createAction(FETCH_EMPLOYEE_ROLE_SUCCESS)
+export const fetchEmployeeRoleError = createAction(FETCH_EMPLOYEE_ROLE_ERROR)

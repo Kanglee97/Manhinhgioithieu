@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/launch_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:orientation="vertical"/>
+
+    <item
+        android:width="300dp"
+        android:height="173.41dp"
+        android:drawable="@mipmap/launch_icon"
+        android:gravity="center"/>
+
+</layer-list>

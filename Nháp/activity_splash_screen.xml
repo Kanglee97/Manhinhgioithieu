@@ -1,0 +1,18 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:marginTop="16dp"
+    android:marginBottom="16dp"
+    android:marginLeft="16dp"
+    android:marginRight="16dp"
+    tools:context="com.hairsalon.SplashScreen">
+        <com.felipecsl.gifimageview.library.GifImageView 
+            android:id="@+id/gifImageView"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+</RelativeLayout> -->

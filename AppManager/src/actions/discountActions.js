@@ -1,0 +1,55 @@
+import { createAction } from 'redux-actions'
+
+export const CREATE_DISCOUNT = 'CREATE_DISCOUNT'
+const CREATE_DISCOUNT_REQUEST = 'CREATE_DISCOUNT_REQUEST'
+const CREATE_DISCOUNT_SUCCESS = 'CREATE_DISCOUNT_SUCCESS'
+const CREATE_DISCOUNT_ERROR = 'CREATE_DISCOUNT_ERROR'
+
+export const FETCH_DISCOUNT = 'FETCH_DISCOUNT'
+const FETCH_DISCOUNT_REQUEST = 'FETCH_DISCOUNT_REQUEST'
+const FETCH_DISCOUNT_SUCCESS = 'FETCH_DISCOUNT_SUCCESS'
+const FETCH_DISCOUNT_ERROR = 'FETCH_DISCOUNT_ERROR'
+
+export const FETCH_DETAIL_DISCOUNT = 'FETCH_DETAIL_DISCOUNT'
+const FETCH_DETAIL_DISCOUNT_REQUEST = 'FETCH_DETAIL_DISCOUNT_REQUEST'
+const FETCH_DETAIL_DISCOUNT_SUCCESS = 'FETCH_DETAIL_DISCOUNT_SUCCESS'
+const FETCH_DETAIL_DISCOUNT_ERROR = 'FETCH_DETAIL_DISCOUNT_ERROR'
+
+export const UPDATE_DETAIL_DISCOUNT = 'UPDATE_DETAIL_DISCOUNT'
+const UPDATE_DETAIL_DISCOUNT_REQUEST = 'UPDATE_DETAIL_DISCOUNT_REQUEST'
+const UPDATE_DETAIL_DISCOUNT_SUCCESS = 'UPDATE_DETAIL_DISCOUNT_SUCCESS'
+const UPDATE_DETAIL_DISCOUNT_ERROR = 'UPDATE_DETAIL_DISCOUNT_ERROR'
+
+export const DELETE_DETAIL_DISCOUNT = 'DELETE_DETAIL_DISCOUNT'
+const DELETE_DETAIL_DISCOUNT_REQUEST = 'DELETE_DETAIL_DISCOUNT_REQUEST'
+const DELETE_DETAIL_DISCOUNT_SUCCESS = 'DELETE_DETAIL_DISCOUNT_SUCCESS'
+const DELETE_DETAIL_DISCOUNT_ERROR = 'DELETE_DETAIL_DISCOUNT_ERROR'
+
+export const createDiscountRequest = createAction(CREATE_DISCOUNT_REQUEST)
+export const createDiscountSuccess = createAction(CREATE_DISCOUNT_SUCCESS)
+export const createDiscountError = createAction(CREATE_DISCOUNT_ERROR)
+
+export const fetchDiscountRequest = createAction(FETCH_DISCOUNT_REQUEST)
+export const fetchDiscountSuccess = createAction(FETCH_DISCOUNT_SUCCESS)
+export const fetchDiscountError = createAction(FETCH_DISCOUNT_ERROR)
+
+export const fetchDetailDiscountRequest = createAction(FETCH_DETAIL_DISCOUNT_REQUEST)
+export const fetchDetailDiscountSuccess = createAction(FETCH_DETAIL_DISCOUNT_SUCCESS)
+export const fetchDetailDiscountError = createAction(FETCH_DETAIL_DISCOUNT_ERROR)
+
+export const updateDetailDiscountRequest = createAction(UPDATE_DETAIL_DISCOUNT_REQUEST)
+export const updateDetailDiscountSuccess = createAction(UPDATE_DETAIL_DISCOUNT_SUCCESS)
+export const updateDetailDiscountError = createAction(UPDATE_DETAIL_DISCOUNT_ERROR)
+
+export const deleteDetailDiscountRequest = createAction(DELETE_DETAIL_DISCOUNT_REQUEST)
+export const deleteDetailDiscountSuccess = createAction(DELETE_DETAIL_DISCOUNT_SUCCESS)
+export const deleteDetailDiscountError = createAction(DELETE_DETAIL_DISCOUNT_ERROR)
+
+const ADD_SERVICE = 'ADD_SERVICE'
+export const addService = createAction(ADD_SERVICE)
+const REMOVE_SERVICE = 'REMOVE_SERVICE'
+export const removeService = createAction(REMOVE_SERVICE)
+const SET_DISCOUNT_DETAIL = 'SET_DISCOUNT_DETAIL'
+export const setDiscountDetail = createAction(SET_DISCOUNT_DETAIL)
+const CLEAR_DETAIL_DISCOUNT = 'CLEAR_DETAIL_DISCOUNT'
+export const clearDetailDiscount = createAction(CLEAR_DETAIL_DISCOUNT)

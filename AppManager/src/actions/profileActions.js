@@ -1,0 +1,52 @@
+import { createAction } from 'redux-actions'
+
+export const FETCH_PROFILE_WITH_TOKEN = 'FETCH_PROFILE_WITH_TOKEN'
+const FETCH_PROFILE_WITH_TOKEN_REQUEST = 'FETCH_PROFILE_WITH_TOKEN_REQUEST'
+const FETCH_PROFILE_WITH_TOKEN_SUCCESS = 'FETCH_PROFILE_WITH_TOKEN_SUCCESS'
+const FETCH_PROFILE_WITH_TOKEN_ERROR = 'FETCH_PROFILE_WITH_TOKEN_ERROR'
+
+export const FETCH_PROFILE = 'FETCH_PROFILE'
+const FETCH_PROFILE_REQUEST = 'FETCH_PROFILE_REQUEST'
+const FETCH_PROFILE_SUCCESS = 'FETCH_PROFILE_SUCCESS'
+const FETCH_PROFILE_ERROR = 'FETCH_PROFILE_ERROR'
+
+export const UPDATE_PROFILE_USER = 'UPDATE_PROFILE_USER'
+const UPDATE_PROFILE_USER_REQUEST = 'UPDATE_PROFILE_USER_REQUEST'
+const UPDATE_PROFILE_USER_SUCCESS = 'UPDATE_PROFILE_USER_SUCCESS'
+const UPDATE_PROFILE_USER_ERROR = 'UPDATE_PROFILE_USER_ERROR'
+
+export const CREATE_PROFILE_STORE_LIST = 'CREATE_PROFILE_STORE_LIST'
+const CREATE_PROFILE_STORE_LIST_REQUEST = 'CREATE_PROFILE_STORE_LIST_REQUEST'
+const CREATE_PROFILE_STORE_LIST_SUCCESS = 'CREATE_PROFILE_STORE_LIST_SUCCESS'
+const CREATE_PROFILE_STORE_LIST_ERROR = 'CREATE_PROFILE_STORE_LIST_ERROR'
+
+export const FETCH_STORE_BY_PROFILE = 'FETCH_STORE_BY_PROFILE'
+const FETCH_STORE_BY_PROFILE_REQUEST = 'FETCH_STORE_BY_PROFILE_REQUEST'
+const FETCH_STORE_BY_PROFILE_SUCCESS = 'FETCH_STORE_BY_PROFILE_SUCCESS'
+const FETCH_STORE_BY_PROFILE_ERROR = 'FETCH_STORE_BY_PROFILE_ERROR'
+
+export const fetchProfileWithTokenRequest = createAction(FETCH_PROFILE_WITH_TOKEN_REQUEST)
+export const fetchProfileWithTokenSuccess = createAction(FETCH_PROFILE_WITH_TOKEN_SUCCESS)
+export const fetchProfileWithTokenError = createAction(FETCH_PROFILE_WITH_TOKEN_ERROR)
+
+export const fetchProfileRequest = createAction(FETCH_PROFILE_REQUEST)
+export const fetchProfileSuccess = createAction(FETCH_PROFILE_SUCCESS)
+export const fetchProfileError = createAction(FETCH_PROFILE_ERROR)
+
+export const fetchStoreByProfleRequest = createAction(FETCH_STORE_BY_PROFILE_REQUEST)
+export const fetchStoreByProfleSuccess = createAction(FETCH_STORE_BY_PROFILE_SUCCESS)
+export const fetchStoreByProfleError = createAction(FETCH_STORE_BY_PROFILE_ERROR)
+
+export const updateProfileUserRequest = createAction(UPDATE_PROFILE_USER_REQUEST)
+export const updateProfileUserSuccess = createAction(UPDATE_PROFILE_USER_SUCCESS)
+export const updateProfileUserError = createAction(UPDATE_PROFILE_USER_ERROR)
+
+export const createProfileStoreListRequest = createAction(CREATE_PROFILE_STORE_LIST_REQUEST)
+export const createProfileStoreListSuccess = createAction(CREATE_PROFILE_STORE_LIST_SUCCESS)
+export const createProfileStoreListError = createAction(CREATE_PROFILE_STORE_LIST_ERROR)
+
+const SET_PROFILE = 'SET_PROFILE'
+export const setProfile = createAction(SET_PROFILE)
+
+const CLEAR_PROFILE = 'CLEAR_PROFILE'
+export const clearProfile = createAction(CLEAR_PROFILE)

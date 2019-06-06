@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "47770210835",
+    "firebase_url": "https://salozo.firebaseio.com",
+    "project_id": "salozo",
+    "storage_bucket": "salozo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47770210835:android:fe735cbe2f8ba05a",
+        "android_client_info": {
+          "package_name": "com.salozo.business"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47770210835-dckiokkp4tr777auhqc76gr7uj7843h7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salozo.business",
+            "certificate_hash": "346238d95b2d129aba6953af850f17e2bba81b51"
+          }
+        },
+        {
+          "client_id": "47770210835-imbd0kev2bhnp566agr2h7prbljk183u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salozo.business",
+            "certificate_hash": "8ebff64f1ac300ac7832357af8fa141325fc6de0"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc4XkJqfD8cgMQHhzaFv7-IiYpyDEkWVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47770210835-2mhlpl6ao6m4188gcdlbbvchl56as8si.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "47770210835-laqtpjo03f566gno58eh4v6u6c44nkdr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.salozo.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47770210835:android:ecb1fabc03258626",
+        "android_client_info": {
+          "package_name": "com.salozo.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47770210835-8822g9t612s1pghv6r5ki4ccav5fvohb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salozo.customer",
+            "certificate_hash": "346238d95b2d129aba6953af850f17e2bba81b51"
+          }
+        },
+        {
+          "client_id": "47770210835-44p8q6cm3svn7e122g0fidscl6apd195.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salozo.customer",
+            "certificate_hash": "8ebff64f1ac300ac7832357af8fa141325fc6de0"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc4XkJqfD8cgMQHhzaFv7-IiYpyDEkWVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47770210835-2mhlpl6ao6m4188gcdlbbvchl56as8si.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "47770210835-laqtpjo03f566gno58eh4v6u6c44nkdr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.salozo.customer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
